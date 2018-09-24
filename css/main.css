@@ -1,0 +1,104 @@
+/* GENERAL */
+
+body {
+	font-family: 'Cabin', sans-serif;
+	line-height: 1.7;
+	color: #212121;
+}	
+
+
+/* HEADER */
+
+header {
+	padding: 1.5rem 5%;
+	background-color: #212121;
+}
+
+.logo h1 {
+	font-family: 'BioRhyme', serif;
+	font-size: 1.5rem;
+	color: #d7ccc8;
+	font-weight: 300;
+}
+
+.menu a {
+	color: #d7ccc8;
+	text-decoration: none;
+}
+
+/* MAIN CONTENT */
+
+main {
+	padding: 3rem 5%;
+}
+
+main h1 {
+	font-family: 'BioRhyme', serif;
+	font-size: 3rem;
+}
+
+main h2 {
+
+}
+
+main h3 {
+	
+}
+
+main h4 {
+	
+}
+
+main p {
+	
+}
+
+main li {
+	
+}
+
+
+/* COLUMN LEFT */
+
+.col-left img {
+	width: 100%;
+}
+
+
+/* INNER COLUMN */
+
+
+/* COLUMN RIGHT */
+
+
+/* INGREDIENTS LISTS */
+
+.ingredients ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ingredients li {
+	padding: .5rem 0;
+	border-top: 1px dotted #bdbdbd;
+}
+
+/* FOOTER */
+
+footer {
+	padding: 1.5rem 5%;
+	background-color: #bdbdbd;
+}
+
+footer p {
+	margin: 0;
+	color: #757575;
+}
+
+footer a {
+	text-decoration: none;
+	font-family: 'BioRhyme', serif;
+	color: #fff;
+	background-color: #757575;
+}

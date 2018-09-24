@@ -1,0 +1,176 @@
+/* GENERAL */
+
+body {
+	font-family: 'Cabin', sans-serif;
+	line-height: 1.4;
+	letter-spacing: .5px;
+	color: #212121;
+}
+
+/* HEADER */
+
+header {
+	padding: 1.5rem 5%;
+	background-color: #212121;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	width: 80%;
+}
+
+.logo h1 {
+	font-family: 'BioRhyme', serif;
+	text-transform: uppercase;
+	color: #D7CCC8;
+	margin: 0;
+	line-height: 4.5rem;
+	font-size: 1.5rem;
+	font-weight: 300;
+	letter-spacing: 2px;
+
+}
+
+.menu {
+	float: right;
+	width: 20%;
+	text-align: right;
+	line-height: 4.5rem;
+}
+
+.menu a {
+	color: #D7CCC8;
+	text-decoration: none;
+}
+
+/* GENERAL MAIN CONTENT */
+
+main {
+	overflow: hidden;
+	padding: 3rem 5%;
+}
+
+main h1 {
+	margin: 1rem 0 0;
+	font-size: 3rem;
+	font-family: 'BioRhyme', serif;
+	line-height: 1;
+	font-weight: 700;
+}
+
+main h2 {
+	margin-top: 1.875rem;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color: #795548;
+}
+
+main h3 {
+	margin: 1rem 0 0;
+	font-size: .75rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #FF5252;
+	margin-bottom: 1rem;
+	font-weight: 400;
+}
+
+main h4 {
+	margin-bottom: 0;
+	font-size: .75rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #5D4037;
+	font-weight: 400;
+}
+
+main h4 + p {
+	margin-top: 0;
+}
+
+main li {
+	line-height: 1.5;
+	color: #757575;
+}
+
+/* COLUMN LEFT */
+
+.col-left img {
+	width: 100%;
+}
+
+@media screen and (min-width: 48em){
+	.col-left {
+		float: left;
+		width: 25%;
+		margin-right: 5%;
+		background-color: #F5F5F5;
+	}
+}
+
+/* INNER COLUMN */
+
+.inner {
+	padding: .5rem 5%;
+}
+
+/* COLUMN RIGHT */
+
+@media screen and (min-width: 48em){
+	.col-right {
+		overflow: hidden;
+		float: right;
+		width: 70%;
+	}
+}
+
+/* INGREDIENTS LISTS */
+
+.ingredients {
+	overflow: hidden;
+}
+
+@media screen and (min-width: 48em){
+	.ingredient {
+		float: left;
+		width: 45%;
+		margin-right: 5%;
+	}
+}
+
+.ingredients ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ingredients li {
+	padding: .5rem 0;
+	border-top: 1px dotted #BDBDBD;
+}
+
+/* FOOTER */
+
+footer {
+	padding: 1.5rem 5%;
+	background-color:#BDBDBD;
+}
+
+footer p {
+	margin: 0;
+	color: #757575;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+	background-color: #757575;
+	line-height: 1.875;
+	display: inline-block;
+	padding: 0 .5rem;
+	margin-left: .25rem;
+	font-family: 'BioRhyme', serif;
+}
